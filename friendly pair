@@ -1,0 +1,13 @@
+#python
+a=int(input("number\n"))
+b=int(input("number\n"))
+l1=[i for i in range(1,a+1)
+    if (a%i==0)]
+l2=[i for i in range(1,b+1)
+    if (b%i==0)]
+sol1=sum(l1)
+sol2=sum(l2)
+if sol1/a == sol2/b:
+    print("Friendly Pair")
+else:
+    print("Not Friendly Pair")
