@@ -1,0 +1,13 @@
+#python
+n=int(input("Number\n"))
+temp=n
+sum=0
+while n>0:
+    d=n%10
+    sum=sum+d
+    n=n//10
+    
+if temp%sum==0:
+    print("Harshad Number")
+else:
+    print("Not Harshad Number")
