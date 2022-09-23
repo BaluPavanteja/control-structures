@@ -1,0 +1,7 @@
+#python
+a=int(input("First Number\n"))
+b=int(input("Second Number\n"))
+sum=0
+for i in range(a,b+1):
+    sum=sum+i
+print(sum)
