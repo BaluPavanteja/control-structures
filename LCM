@@ -1,0 +1,8 @@
+#python
+a=int(input("first number\n"))
+b=int(input("second number\n"))
+for i in range(1,a*b+1):
+    if i % a == 0 and i % b== 0:
+        break
+
+print(f"LCM of {a} and {b} is {i}")
